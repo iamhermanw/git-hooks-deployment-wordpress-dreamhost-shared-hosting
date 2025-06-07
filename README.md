@@ -1,14 +1,16 @@
 # Deployment using Git Hooks for WordPress sites hosted with DreamHost shared hosting
 
+Credit to Brad Schiff for his tutorial video titled [*Host Infinite WordPress Sites On Affordable Plan (My Git Setup)*](https://youtu.be/OGAMKCj0wy0?si=iRscv6a2j6HJ0w-D).
+
 1. Enable SSH in the DreamHost's web panel.
 
 2. Connect the remote server with the local terminal:
 
 `ssh Username@Host`
 
-> Username example: ab_c1def2
+> Username example: `ab_c1def2`
 
-> Host example: ams1-shared-01.dreamhost.com
+> Host example: `ams1-shared-01.dreamhost.com`
 
 3. Initialize a bare Git repository in `/home/Username` on the remote server:
 
