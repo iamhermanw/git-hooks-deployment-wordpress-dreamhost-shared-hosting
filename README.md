@@ -1,6 +1,7 @@
 # Deployment using Git Hooks for WordPress sites hosted with DreamHost shared hosting
 
-Credit to Brad Schiff for his tutorial video titled [*Host Infinite WordPress Sites On Affordable Plan (My Git Setup)*](https://youtu.be/OGAMKCj0wy0?si=iRscv6a2j6HJ0w-D).
+> [!NOTE]
+> Credit to Brad Schiff for his tutorial video titled [*Host Infinite WordPress Sites On Affordable Plan (My Git Setup)*](https://youtu.be/OGAMKCj0wy0?si=iRscv6a2j6HJ0w-D).
 
 1. Enable SSH in the DreamHost's web panel.
 
@@ -36,7 +37,7 @@ Credit to Brad Schiff for his tutorial video titled [*Host Infinite WordPress Si
 
 ```
 #!/bin/bash
-git --work-tree=/home/Username/DomainName/wp-content --git-dir=/home/Username/bare-repo checkout -f
+git --work-tree=/home/Username/yourdomain.com/wp-content --git-dir=/home/Username/bare-repo checkout -f
 ```
 
 Press `ctrl + x` to exit.
